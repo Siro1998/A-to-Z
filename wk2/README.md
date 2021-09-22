@@ -1,6 +1,6 @@
 # wk2 Regex Game!
 
-For wk2 assignment, I continued the Regex Golf game we played in class.
+For wk2 assignment, I continued the Regex Golf game we played in class. I did this week's blog on a readme file to get more familiar with the Markdown format.
 
 ### Backrefs 
 * I noticed that all the words on the left have a repeated three characters, so I put **(...).*\1**  which is any three characters followed by one or more characters,and followed by anything that is in the first parentheses.
