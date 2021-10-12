@@ -1,24 +1,23 @@
-# WK3
+# WK4
 
-### Website with Giphy API and Kanye Rest API. 
-* Click on Kanye's head, you will see a quote by him, and you can type in a comment of that quote. 
-* After click the post button, a random gif related to your comment will be pulled from Giphy API and displayed on the website. 
-* I use html, css and javascript for this website. 
-* Try my website here!https://a2zw3kanyequotegifapi.netlify.app/
+### Lyrics Word Frequency Analysis
+
+* Try my sketch here https://editor.p5js.org/Siro1998/sketches/x7KjeYqax
+* For wk4 assignment, I created a collage with words from lyrics. I found a dataset that includes 745 popular English songs lyrics from artists like Taylor Swift, Billie Eilish, David Bowie, etc... and save the lyrics as a txt file.
+
+<img width="1108" alt="Screen Shot 2021-10-11 at 8 37 25 PM" src="https://user-images.githubusercontent.com/43830622/136878516-36eb5fb2-ad97-4287-a978-008713dd5224.png"><img width="466" alt="Screen Shot 2021-10-11 at 10 09 05 PM" src="https://user-images.githubusercontent.com/43830622/136879289-ef082286-247c-4af2-a149-624a825a3327.png">
+
+* I used the inclass word counting example to count the frequence of each word.
+
+<img width="641" alt="Screen Shot 2021-10-11 at 10 05 17 PM" src="https://user-images.githubusercontent.com/43830622/136878887-2c802f3e-903d-405c-9fbe-81a32e15fba7.png">
+
+* I let the word appear randomly on the canvas, and I mapped the frequency to size of the words. 
+
+<img width="641" alt="Screen Shot 2021-10-11 at 10 05 36 PM" src="https://user-images.githubusercontent.com/43830622/136878892-829d3260-8e02-4270-84bb-2a70a40908dc.png">
+
+* Words like "the", "a", "I" appears most frequently in lyrics like all the other text files. But words like "love" "oh" also appears a lot in lyrics. Singers like to sing about love. LOL.
 
 Here is a video demo.
 
-https://user-images.githubusercontent.com/43830622/135311180-fdb0739d-b118-43b8-bc4c-efe4d21c0902.mov
+https://user-images.githubusercontent.com/43830622/136878327-970ce0d7-d778-4711-aae4-df4fbeeee919.mov
 
-
-* These are two functions that get gif from Giphy API and get quote from Kanye Rest API. I use fetch() in both of them in the basic way by .then. 
-* **Question：** I'm not sure what is the difference between .then and async when using fetch(). 
-* For the Giphy API, I use the random endpoint and I need to get a API key to have access to that. I don't hide my API key in the code this time, but it's fine for this API I think. lol. But maybe I should hide it next time.
-
-<img width="838" alt="Screen Shot 2021-09-29 at 12 13 20 PM" src="https://user-images.githubusercontent.com/43830622/135309895-de536fd6-1f54-40de-800d-cb1e6b6e978f.png">
-
-<img width="1059" alt="Screen Shot 2021-09-29 at 12 53 15 PM" src="https://user-images.githubusercontent.com/43830622/135314212-2dd1ea6f-78f4-4cbc-944c-08c24b689b19.png">
-
-* **Another question：** I use a Kanye West picture as a button img source, but i want to get rid of the border of the button, not sure how to do that. Here is what I wrote in the html & js code for the button.
-<img width="760" alt="Screen Shot 2021-09-29 at 1 04 52 PM" src="https://user-images.githubusercontent.com/43830622/135315915-038b4259-08da-4346-a51c-90ae6fb5c1a8.png">
-<img width="642" alt="Screen Shot 2021-09-29 at 1 06 33 PM" src="https://user-images.githubusercontent.com/43830622/135316084-0f26eeb8-8d91-4ef8-b5da-f8d12f6adace.png">
