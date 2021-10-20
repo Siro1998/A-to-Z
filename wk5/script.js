@@ -25,7 +25,7 @@ const client = new TwitterApi({
 });
 
 async function getArt() {
-  const number = getRandomInt(1, 437134);
+  const number = getRandomInt(1, 471581);
   console.log(number);
   const url = `https://collectionapi.metmuseum.org/public/collection/v1/objects/${number}`;
   console.log(url);
