@@ -10,7 +10,7 @@ Full code https://editor.p5js.org/Siro1998/sketches/Milx5K_yY.
 
 <img width="536" alt="Screen Shot 2021-12-12 at 11 29 23 PM" src="https://user-images.githubusercontent.com/43830622/145752648-dd0a7c93-ed91-4c00-bd98-74e35c24490b.png"><img width="602" alt="Screen Shot 2021-12-12 at 11 29 31 PM" src="https://user-images.githubusercontent.com/43830622/145752663-6afbe1fd-60ec-4d78-8865-af3c6f15c3f5.png">
 
-## Process
+### Process
 First, I followed [Daniel Shiffman's AFINN-111 Sentiment Analysis tutorial](https://editor.p5js.org/codingtrain/sketches/aNeMdpy-b). I downloaded a AFINN txt file with a lot of pre-scored word, and I converted it to json file. I created a blank text box on the page to get the typed-in text. If any words matched the AFINN words library, the score of that word would be add to the total sentiment score. I also calculated the division result of total score and the typed-in words length to get a comparative score of the whole sentence.
 ``` ruby
 for (var i = 0; i < words.length; i++) {
@@ -110,7 +110,7 @@ And here are some examples I generated.
 <img width="347" alt="Screen Shot 2021-12-12 at 11 31 47 PM" src="https://user-images.githubusercontent.com/43830622/145753066-ee884b89-75cb-47d0-966c-a61f7a2e9732.png"><img width="347" alt="Screen Shot 2021-12-12 at 11 32 26 PM" src="https://user-images.githubusercontent.com/43830622/145753072-317e6484-33c6-41fd-b3ba-0384823c77c7.png"><img width="347" alt="Screen Shot 2021-12-12 at 11 32 59 PM" src="https://user-images.githubusercontent.com/43830622/145753076-56981ffa-4278-469b-851c-6989c4d67dbe.png"><img width="347" alt="Screen Shot 2021-12-12 at 11 34 26 PM" src="https://user-images.githubusercontent.com/43830622/145753087-65177307-6a07-46b7-881d-ccc98a3c37dc.png">
 
 
-## What I can do more
+### Next Step
 * I want to make the sentiment analysis more accurate. Because the words in AFINN library are very limited, I want to either get larger library or use another way to do the analysis. 
 * I also want to use randomSeed() so with the same typed-in words, the generated results will be same.
 
